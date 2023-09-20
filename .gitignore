@@ -1,0 +1,4 @@
+/node_modules
+.env
+
+/src/app/controllers/usuarios/key/firebaseAccountKey.json

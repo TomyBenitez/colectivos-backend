@@ -1,0 +1,140 @@
+[
+	{
+		"orden": 1,
+		"nombre": "Reconquista",
+		"latitud": -29.14482425995645,
+		"longitud": -59.64564597619571
+	},
+	{
+		"orden": 2,
+		"nombre": "Berna",
+		"latitud": -29.274031902063257,
+		"longitud": -59.846175700535944
+	},
+	{
+		"orden": 3,
+		"nombre": "Malabrigo",
+		"latitud": -29.34889747503692,
+		"longitud": -59.97431203196701
+	},
+	{
+		"orden": 4,
+		"nombre": "Vera",
+		"latitud": -29.4580898689559,
+		"longitud": -60.21644424259213
+	},
+	{
+		"orden": 5,
+		"nombre": "Margarita",
+		"latitud": -29.68981280737498,
+		"longitud": -60.25188072463037
+	},
+	{
+		"orden": 6,
+		"nombre": "Calchaqui",
+		"latitud": -29.88885567012509,
+		"longitud": -60.284299273390374
+	},
+	{
+		"orden": 7,
+		"nombre": "Pedro Gómez Cello",
+		"latitud": -30.034978124386956,
+		"longitud": -60.31394862567016
+	},
+	{
+		"orden": 8,
+		"nombre": "Vera y Pintado",
+		"latitud": -30.142906636740253,
+		"longitud": -60.34318794136163
+	},
+	{
+		"orden": 9,
+		"nombre": "La Criolla",
+		"latitud": -30.225676879436314,
+		"longitud": -60.365677184565
+	},
+	{
+		"orden": 10,
+		"nombre": "Gobernador Crespo",
+		"latitud": -30.36134647270266,
+		"longitud": -60.399639777033194
+	},
+	{
+		"orden": 11,
+		"nombre": "Colonia Silva",
+		"latitud": -30.44758330355949,
+		"longitud": -60.42686156825845
+	},
+	{
+		"orden": 12,
+		"nombre": "Marcelino Escalada",
+		"latitud": -30.58147536793356,
+		"longitud": -60.468510877390834
+	},
+	{
+		"orden": 13,
+		"nombre": "Ramayón",
+		"latitud": -30.672858041340803,
+		"longitud": -60.50016180135235
+	},
+	{
+		"orden": 14,
+		"nombre": "San Justo",
+		"latitud": -30.7840275,
+		"longitud": -60.5935688
+	},
+	{
+		"orden": 15,
+		"nombre": "Videla",
+		"latitud": -30.94387074775629,
+		"longitud": -60.65507372701529
+	},
+	{
+		"orden": 16,
+		"nombre": "Emilia",
+		"latitud": -31.057551630743344,
+		"longitud": -60.744551854446605
+	},
+	{
+		"orden": 17,
+		"nombre": "Llambi Campbell",
+		"latitud": -31.17990930282699,
+		"longitud": -60.745600844228925
+	},
+	{
+		"orden": 18,
+		"nombre": "Nelson",
+		"latitud": -31.26585252726191,
+		"longitud": -60.76195473131067
+	},
+	{
+		"orden": 19,
+		"nombre": "Candiotti",
+		"latitud": -31.40084762874857,
+		"longitud": -60.74863546551623
+	},
+	{
+		"orden": 20,
+		"nombre": "Recreo",
+		"latitud": -31.49189355276316,
+		"longitud": -60.73093934798846
+	},
+	{
+		"orden": 21,
+		"nombre": "Santa Fe",
+		"latitud": -31.647487,
+		"longitud": -60.7024789
+	},
+	{
+		"orden": 22,
+		"nombre": "Rosario",
+		"latitud": -32.9393156,
+		"longitud": -60.6742529
+	},
+	{
+		"orden": 23,
+		"nombre": "Retiro",
+		"latitud": -34.5885497,
+		"longitud": -58.3743201
+	}
+]
