@@ -19,7 +19,6 @@ const crearUsuario = async (req,res,next) => {
 		
 		delete usuario.repetirPassword;
 		delete usuario.repetirEmail;
-		delete usuario.password;
 		
 		const user = await auth.createUser({
 			email: usuario.email,
@@ -28,6 +27,8 @@ const crearUsuario = async (req,res,next) => {
 			displayName: `${usuario.nombre} ${usuario.apellido}`,
 			disabled: false,
 		})
+		
+		delete usuario.password;
 		
 		usuario.f_uid = user.uid;
 		
