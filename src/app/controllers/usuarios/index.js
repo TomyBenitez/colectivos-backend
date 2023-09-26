@@ -17,13 +17,15 @@ const crearUsuario = async (req,res,next) => {
 	try {
 		const auth = admin.auth();
 		
-		delete usuario.repetirPassword;
-		delete usuario.repetirEmail;
+		await auth.signOut(); //si el usuario anónimo existe, cierra la sesión
+
+		delete usuario.repetircontrasena;
+		delete usuario.repetircorreo;
 		
 		const user = await auth.createUser({
-			email: usuario.email,
+			email: usuario.correo,
 			emailVerified: false,
-			password: usuario.password,
+			password: usuario.contrasena,
 			displayName: `${usuario.nombre} ${usuario.apellido}`,
 			disabled: false,
 		})
