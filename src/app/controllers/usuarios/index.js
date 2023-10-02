@@ -16,8 +16,6 @@ const crearUsuario = async (req,res,next) => {
 	
 	try {
 		const auth = admin.auth();
-		
-		await auth.signOut(); //si el usuario anónimo existe, cierra la sesión
 
 		delete usuario.repetircontrasena;
 		delete usuario.repetircorreo;
@@ -30,14 +28,15 @@ const crearUsuario = async (req,res,next) => {
 			disabled: false,
 		})
 		
-		delete usuario.password;
+		delete usuario.contrasena;
 		
 		usuario.f_uid = user.uid;
 		
-		const newUser = Usuarios.create(usuario);
+		const newUser = await Usuarios.create(usuario);
 		
-		res.send(newUser);
+		res.status(200).send({...newUser});
 	} catch (error) {
+		console.log(error);
 		res.status(500).send({error})
 	}
 	
